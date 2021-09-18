@@ -1,8 +1,8 @@
 import React from "react"
 
-import feature from "../images/feature.png"
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
@@ -26,7 +26,10 @@ const Content = () => (
         </p>
       </div>
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        <StaticImage
+          src={"../images/feature.png"}
+          alt="a blank card floating over colorful graphics"
+        />
       </div>
     </content>
   </div>
