@@ -1,6 +1,6 @@
 import React from "react"
 
-import Button from "../components/button"
+import Button from "./button"
 import SectionHeader from "./section-header"
 
 const CallToAction = () => (

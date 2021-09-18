@@ -13,7 +13,7 @@ import Footer from "./footer"
 import "../styles/default.css"
 
 const Layout = ({ children }) => (
-  <StaticQuery
+  <StaticQuery<GatsbyTypes.SiteTitleQueryQuery>
     query={graphql`
       query SiteTitleQuery {
         site {

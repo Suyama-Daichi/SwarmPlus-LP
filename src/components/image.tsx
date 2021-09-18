@@ -14,7 +14,7 @@ import Img from "gatsby-image"
  */
 
 const Image = () => (
-  <StaticQuery
+  <StaticQuery<GatsbyTypes.Query>
     query={graphql`
       query {
         placeholderImage: file(relativePath: { eq: "mockup-content.png" }) {
