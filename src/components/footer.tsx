@@ -3,7 +3,11 @@ import PropTypes from "prop-types"
 
 import { COLORS } from "../styles/constants"
 
-const Footer = ({ siteTitle }) => (
+type Props = {
+  siteTitle: string
+}
+
+const Footer = ({ siteTitle }: Props) => (
   <footer
     style={{
       padding: "1rem",

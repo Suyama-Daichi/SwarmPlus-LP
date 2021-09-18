@@ -6,7 +6,11 @@ import headerImage from "../images/header.png"
 import MockupContent from "./image"
 import mockupFrame from "../images/mockup-frame.png"
 
-const Header = ({ siteTitle }) => (
+type Props = {
+  siteTitle: string
+}
+
+const Header = ({ siteTitle }: Props) => (
   <div
     style={{
       display: "flex",
