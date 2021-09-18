@@ -12,8 +12,12 @@ import { StaticQuery, graphql } from "gatsby"
 import Footer from "./footer"
 import "../styles/default.css"
 
-const Layout = ({ children }) => (
-  <StaticQuery
+type Props = {
+  children: React.ReactChildren
+}
+
+const Layout = ({ children }: Props) => (
+  <StaticQuery<GatsbyTypes.SiteTitleQueryQuery>
     query={graphql`
       query SiteTitleQuery {
         site {

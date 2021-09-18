@@ -7,8 +7,6 @@ export const COLORS = {
   blue: "#5368f1",
 }
 
-export const GRADIENT = `linear-gradient(to top right, ${COLORS.babyBlue}, ${
-  COLORS.blue
-})`
+export const GRADIENT = `linear-gradient(to top right, ${COLORS.babyBlue}, ${COLORS.blue})`
 
 export const BORDER_RADIUS = "10px"
