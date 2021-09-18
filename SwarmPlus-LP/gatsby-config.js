@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/swarmplus`,
   siteMetadata: {
     title: `Starter Landing Page`,
     description: `A barebone landing page starter with some minimal styles.`,
