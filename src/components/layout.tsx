@@ -13,7 +13,7 @@ import Footer from "./footer"
 import "../styles/default.css"
 
 type Props = {
-  children: React.ReactChildren
+  children: React.ReactNode
 }
 
 const Layout = ({ children }: Props) => (
@@ -27,7 +27,7 @@ const Layout = ({ children }: Props) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <div
           style={{

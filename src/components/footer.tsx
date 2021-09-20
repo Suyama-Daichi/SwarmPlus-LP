@@ -26,10 +26,11 @@ const Footer = ({ siteTitle }: Props) => (
     >
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
         <a
+          target="_blank"
           style={{ textDecoration: "none" }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfKJCTeZjRYMfMuIeW24Sin-4CHbXgFdGvvfkttKH4KG7r-cA/viewform"
         >
-          Contact Us
+          お問い合わせ
         </a>
       </div>
       <div style={{ color: COLORS.gray }}>

@@ -29,18 +29,25 @@ const Header = ({ siteTitle }: Props) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
-    </p>
-    <Button>Get Early Access</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
+    <h1 style={{ textAlign: "center" }}>SwarmPlus</h1>
+    <p style={{ textAlign: "center", maxWidth: 440 }}>あの日に遡ろう</p>
+    <Button>βテスト中</Button>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        paddingTop: 16,
+        margin: 60,
+        width: `220px`,
+        position: "relative",
+      }}
+    >
+      <div style={{ clipPath: "inset(0% 0% round 0% 0%)" }}>
         <StaticImage
           quality={100}
           width={250}
-          src={"../images/mockup-content.png"}
+          src={"../images/calendar.png"}
           alt="content "
           placeholder="blurred"
         />

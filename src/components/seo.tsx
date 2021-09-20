@@ -12,10 +12,10 @@ import { useStaticQuery, graphql } from "gatsby"
 
 type Props = {
   title: string
-  description: string
-  lang: 'en' | 'ja'
-  meta: HelmetProps['meta']
-  keywords: string[]
+  description?: string
+  lang?: "en" | "ja"
+  meta?: HelmetProps["meta"]
+  keywords?: string[]
 }
 
 function SEO({ description, lang, meta, keywords, title }: Props) {
@@ -41,7 +41,7 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      // titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
@@ -90,7 +90,7 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `ja`,
   meta: [],
   keywords: [],
 }

@@ -4,14 +4,14 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
 import Content from "../components/content"
-import CallToAction from "../components/cta"
+// import CallToAction from "../components/cta"
 
 const IndexPage = () => (
   <Layout>
-    <Seo />
+    <Seo title={"SwarmPlus"} />
     <Hero />
     <Content />
-    <CallToAction />
+    {/* <CallToAction /> */}
   </Layout>
 )
 
