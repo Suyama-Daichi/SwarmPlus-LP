@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: `/SwarmPlus-LP`,
   siteMetadata: {
-    title: `Starter Landing Page`,
-    description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
-    siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
+    title: `SwarmPlus`,
+    description: `SwarmPlus landing page.`,
+    author: `daichi.suyama`,
+    siteUrl: `https://suyama-daichi.github.io/SwarmPlus-LP/`,
   },
   plugins: [
     `gatsby-plugin-typegen`,
@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: "G-P7HRM2QTPC",
       },
     },
     {

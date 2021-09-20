@@ -4,7 +4,7 @@ import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
 import "../styles/button.css"
 
 type Props = {
-  children: React.ReactChildren
+  children: React.ReactChildren | string
 }
 
 const Button = ({ children }: Props) => (
