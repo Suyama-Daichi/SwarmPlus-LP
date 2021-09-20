@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/swarmplus-lp`,
+  pathPrefix: `/SwarmPlus-LP`,
   siteMetadata: {
     title: `SwarmPlus`,
     description: `SwarmPlus landing page.`,

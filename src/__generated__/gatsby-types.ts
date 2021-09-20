@@ -3524,4 +3524,9 @@ type PagesQueryQueryVariables = Exact<{ [key: string]: never; }>;
 
 type PagesQueryQuery = { readonly allSiteFunction: { readonly nodes: ReadonlyArray<Pick<SiteFunction, 'functionRoute'>> }, readonly allSitePage: { readonly nodes: ReadonlyArray<Pick<SitePage, 'path'>> } };
 
+type usersdaichiSourceCodesPrivateSwarmPlusLPsrccomponentsimageTsx196824694QueryVariables = Exact<{ [key: string]: never; }>;
+
+
+type usersdaichiSourceCodesPrivateSwarmPlusLPsrccomponentsimageTsx196824694Query = { readonly placeholderImage: Maybe<{ readonly childImageSharp: Maybe<{ readonly fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> };
+
 }
