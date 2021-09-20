@@ -3,13 +3,16 @@ import React from "react"
 import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
 import "../styles/button.css"
 
+import { Button as Btn } from "@material-ui/core"
+
 type Props = {
-  children: React.ReactChildren | string
+  children: React.ReactNode | string
 }
 
 const Button = ({ children }: Props) => (
-  <button
+  <Btn
     style={{
+      textTransform: "none",
       padding: ".5rem 2.5rem",
       color: COLORS.lightWhite,
       fontWeight: 700,
@@ -20,7 +23,7 @@ const Button = ({ children }: Props) => (
     }}
   >
     {children}
-  </button>
+  </Btn>
 )
 
 export default Button
