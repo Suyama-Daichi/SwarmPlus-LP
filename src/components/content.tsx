@@ -7,8 +7,8 @@ import { StaticImage } from "gatsby-plugin-image"
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="Minimal Features"
-      description="Don't spend time ripping out unneeded plugins and bloat."
+      title="できること"
+      description="SwarmPlusができることを紹介"
     />
     <div
       style={{
@@ -19,10 +19,9 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>What you need to Start</h3>
+        <h3>カレンダーで振り返る</h3>
         <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
+          カレンダーから、過去のチェックインを簡単に振り返ることができます。
         </p>
       </div>
       <div>
