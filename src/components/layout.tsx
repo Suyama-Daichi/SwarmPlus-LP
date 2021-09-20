@@ -36,7 +36,7 @@ const Layout = ({ children }: Props) => (
         >
           <main>{children}</main>
         </div>
-        <Footer siteTitle={data.site.siteMetadata.title} />
+        <Footer siteTitle={data!.site!.siteMetadata!.title} />
       </>
     )}
   />
