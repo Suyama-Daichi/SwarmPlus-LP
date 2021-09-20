@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
