@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/swarmplus`,
+  pathPrefix: `/swarmplus-lp`,
   siteMetadata: {
     title: `Starter Landing Page`,
     description: `A barebone landing page starter with some minimal styles.`,
@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/images/`,
       },
     },
   ],

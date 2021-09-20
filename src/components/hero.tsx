@@ -38,6 +38,8 @@ const Header = ({ siteTitle }: Props) => (
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <StaticImage
+          quality={100}
+          width={250}
           src={"../images/mockup-content.png"}
           alt="content "
           placeholder="blurred"
