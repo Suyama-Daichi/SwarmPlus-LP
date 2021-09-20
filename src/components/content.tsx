@@ -10,7 +10,7 @@ const Content = () => (
       title="Minimal Features"
       description="Don't spend time ripping out unneeded plugins and bloat."
     />
-    <content
+    <div
       style={{
         display: "grid",
         alignItems: "center",
@@ -28,10 +28,11 @@ const Content = () => (
       <div>
         <StaticImage
           src={"../images/feature.png"}
-          alt="a blank card floating over colorful graphics"
+          alt="content "
+          placeholder="blurred"
         />
       </div>
-    </content>
+    </div>
   </div>
 )
 

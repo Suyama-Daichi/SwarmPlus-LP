@@ -37,7 +37,13 @@ const Header = ({ siteTitle }: Props) => (
     <Button>Get Early Access</Button>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <StaticImage src="../images/mockup-content.PNG" alt={"mock"} />
+        <StaticImage
+          quality={100}
+          width={250}
+          src={"../images/mockup-content.png"}
+          alt="content "
+          placeholder="blurred"
+        />
       </div>
       <div
         style={{
@@ -49,6 +55,7 @@ const Header = ({ siteTitle }: Props) => (
         <StaticImage
           src={"../images/mockup-frame.png"}
           alt="outlines of shapes and confetti in the background "
+          placeholder="blurred"
         />
       </div>
     </div>
