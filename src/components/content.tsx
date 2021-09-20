@@ -1,8 +1,8 @@
 import React from "react"
 
-import feature from "../images/feature.png"
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
@@ -10,7 +10,7 @@ const Content = () => (
       title="Minimal Features"
       description="Don't spend time ripping out unneeded plugins and bloat."
     />
-    <content
+    <div
       style={{
         display: "grid",
         alignItems: "center",
@@ -26,9 +26,13 @@ const Content = () => (
         </p>
       </div>
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        <StaticImage
+          src={"../images/feature.png"}
+          alt="content "
+          placeholder="blurred"
+        />
       </div>
-    </content>
+    </div>
   </div>
 )
 
