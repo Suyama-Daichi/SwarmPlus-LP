@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

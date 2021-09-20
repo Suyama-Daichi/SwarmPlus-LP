@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import Button from "./button"
 import headerImage from "../images/header.png"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 type Props = {
   siteTitle: string
@@ -31,7 +32,15 @@ const Header = ({ siteTitle }: Props) => (
     />
     <h1 style={{ textAlign: "center" }}>SwarmPlus</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>あの日に遡ろう</p>
-    <Button>βテスト中</Button>
+    <Button>
+      <a
+        href={"https://expo.dev/@donchan/SwarmPlus?release-channel=develop"}
+        style={{ textDecoration: "none", color: "white" }}
+        target="_blank"
+      >
+        βテスト中
+      </a>
+    </Button>
     <div
       style={{
         display: "flex",
